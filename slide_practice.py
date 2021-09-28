@@ -67,3 +67,38 @@ z = 100
 # x, y, and z do not have to match the name of the parameters
 six_weeks_grade = int(grade(x, y, z))
 print("Mr. P's grade for the first six weeks is " + str(six_weeks_grade))
+
+
+# We've done examples of Return Functions up until now
+# Void Functions (Simple Functions)
+# Functions are like recipies 
+# They will not execute until "Called" or "Invoked"
+
+# Void Functions example one (no parameters)
+def say_lots_of_stuff():
+	print("Lots")
+	print("of")
+	print("Stuff")
+
+# This function prints out "Lots of Stuff" on three lines
+# Void Functions don't return anything, they just "do"
+
+# When calling a function, you use its name
+say_lots_of_stuff()
+
+# The code within your function needs to be indented
+# Functions are for organization
+# Going forward, we will define functions at the top of our files
+
+# Libraries
+# Libraries are a directory of specific functions others have already made that we can use
+# It lets us "reuse" code (saves time and effort)
+
+# Random Library
+# When using a library, you have to import it
+import random
+
+# Calling a function from library
+# nameOfLibrary.nameOfFunction(parameters)
+# Picks a random number between 1 and 100 (including 1 and 100)
+print(random.randint(1, 100))
