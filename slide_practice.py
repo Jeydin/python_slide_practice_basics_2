@@ -10,7 +10,7 @@
 
 # f(x) = 5x + 2 rewritten as a Python function
 def f(x): 
-	y = 5*x + 2
+	y = 5 * x + 2
 	return y
 
 # Every function starts with "def"
